@@ -1,0 +1,263 @@
+@media screen and (max-width: 1023px) {
+  .lead__text {
+    font-size: 2.5rem;
+  }
+  .sub__text {
+    font-size: 1.4rem;
+  }
+
+  .hero__form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .hero__form input {
+    width: 100%;
+  }
+  .hero__form #btn1 {
+    width: 100%;
+  }
+  .testimonial {
+    width: 100%;
+  }
+  .section__2-img {
+    display: flex;
+    align-items: flex-start;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero__text--area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .hero__image--area img {
+    max-width: 30rem;
+  }
+  .lead__text {
+    text-align: center;
+    line-height: 1;
+    font-size: 3.5rem;
+  }
+  .hero__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .line__break {
+    display: none;
+  }
+  .sub__text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .section__2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section__2-img img {
+    max-width: 30rem;
+  }
+  .section__2--text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .second__heading {
+    font-size: 3rem;
+  }
+
+  .first__text,
+  .second__text {
+    width: 75%;
+  }
+  .testimonial {
+    width: 80%;
+  }
+  .section__3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section__3--text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .section__3--text-box h1 {
+    font-size: 2.5rem;
+  }
+  .section__3--text-box p {
+    text-align: center;
+    width: 63%;
+  }
+  .section__3--text-box .line__break {
+    display: none;
+  }
+  .section__3 .form input[type="email"] {
+    height: 4.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border: none;
+  }
+  .section__3 .form input[type="button"] {
+    height: 4.5rem;
+    width: 100%;
+  }
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5rem 2rem;
+  }
+  .socialmedia {
+    margin: auto;
+  }
+  .footer-links ul {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+  .info {
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-section {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .hero__text--area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .hero__image--area img {
+    max-width: 30rem;
+  }
+  .lead__text {
+    text-align: center;
+    line-height: 1;
+    font-size: 3.5rem;
+  }
+  .hero__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+  .line__break {
+    display: none;
+  }
+  .sub__text {
+    width: 90%;
+    text-align: center;
+  }
+
+  .section__2 {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .section__2-img img {
+    max-width: 30rem;
+  }
+  .section__2--text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+  }
+  .second__heading {
+    font-size: 3rem;
+  }
+
+  .first__text,
+  .second__text {
+    width: 75%;
+  }
+  .testimonial {
+    width: 80%;
+  }
+
+  .section__3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .section__3--text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .section__3--text-box h1 {
+    font-size: 2.5rem;
+  }
+  .section__3--text-box p {
+    text-align: center;
+    width: 63%;
+  }
+  .section__3--text-box .line__break {
+    display: none;
+  }
+  .section__3 .form input[type="email"] {
+    height: 4.5rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 3rem;
+    border: none;
+  }
+  .section__3 .form input[type="button"] {
+    height: 4.5rem;
+    width: 100%;
+  }
+  .footer__box {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 5rem 2rem;
+  }
+  .socialmedia {
+    margin: auto;
+  }
+  .footer-links ul {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 5rem;
+  }
+  .info {
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 426px) and (min-width: 319px) {
+  .navbar ul {
+    gap: 1rem;
+  }
+  .second__heading {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .navbar ul {
+    display: block;
+  }
+}
